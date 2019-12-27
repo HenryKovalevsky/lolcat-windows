@@ -15,3 +15,7 @@ $ dir | lolcat
 ```cmd
 $ lolcat some.txt
 ```
+
+## Installation
+
+[Download](https://github.com/HenryKovalevsky/lolcat-windows/releases/download/v0.1.0/lolcat.exe) and add to PATH.
