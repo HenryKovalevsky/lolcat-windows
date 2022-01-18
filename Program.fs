@@ -12,8 +12,8 @@ module Process =
         processStdInput()
 
   let processFile filePath =
-    File.ReadAllText filePath
-    |> (Colorize.colorize >> Console.WriteLine)
+    File.ReadLines filePath
+    |> Seq.iter (Colorize.colorize >> Console.WriteLine)
 
 module Help =
   let [<Literal>] HelpMessage = 
